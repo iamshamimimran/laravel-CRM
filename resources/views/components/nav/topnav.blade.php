@@ -1,6 +1,6 @@
 <nav class="navbar bg-dark sticky-top shadow-sm">
-  <div class="container">
-    <a class="navbar-brand text-white" href="">CRM</a>
+  <div class="ms-3 container">
+    <a class="navbar-brand text-white fs-4" href="">Xeotec E-Services</a>
 
     <li class="dropdown">
       <a class="dropdown-toggle text-decoration-none text-white" href="#" id="navbarDropdown" role="button"
