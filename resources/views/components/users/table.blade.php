@@ -1,13 +1,22 @@
 @props(['users'])
 
+<style>
+  table {
+    font-size: 20px; /* Adjust the font size for the entire table */
+  }
+
+  table th, table td {
+    font-size: 20px; /* Adjust the font size for header cells and data cells */
+  }
+</style>
 @if ($users->isEmpty())
   <div class="pt-3 pb-2">
     <h4 class="text-muted">No users found.</h4>
   </div>
 @else
-  <div class="table-responsive">
-    <table class="table-hover table align-middle">
-      <thead>
+  <div class="table-responsive" style="margin-top: 20px; border: 1px rgb(72, 70, 70) solid;">
+    <table class="table-hover  table align-middle ">
+      <thead class="table-success">
         <tr>
           <th>Name</th>
           <th>Email</th>

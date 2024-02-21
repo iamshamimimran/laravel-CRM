@@ -27,7 +27,7 @@
     @else
       <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
-          <a class="navbar-brand" href="{{ url('/') }}">
+          <a class="navbar-brand" style="font-weight: bolder;" href="{{ url('/') }}">
           {{ __('Xeotec E-Services') }}
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -47,7 +47,7 @@
               @guest
                 @if (Route::has('login'))
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    <a class="nav-link"  style="font-weight: bolder;" href="{{ route('login') }}">{{ __('Login') }}</a>
                   </li>
                 @endif
 

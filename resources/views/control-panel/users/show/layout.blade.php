@@ -14,9 +14,9 @@
 
 @section('subcontent')
   @yield('button')
-  <div class="card">
+  <!-- <div class="card">
     <div class="card-body py-1">
       @yield('table')
     </div>
-  </div>
+  </div> -->
 @endsection

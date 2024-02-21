@@ -3,11 +3,16 @@ if (!isset($activeNavItem)) {
     $activeNavItem = null;
 }
 @endphp
+<style>
+  .navbar-nav .nav-link:hover{
+    background-color: rgba(229, 226, 226, 0.412);
+  }
+</style>
 <nav class="col-2 h-100 px-0 navbar position-fixed navbar-expand-lg bg-dark d-flex align-items-start">
   <div class="container px-0">
     <ul class="navbar-nav flex-column mx-auto">
       <li class="nav-item">
-        <a class="nav-link @if ($activeNavItem === 'dashboard') bg-secondary bg-gradient @endif ps-3 pe-5 py-3 fs-5 rounded text-white" href="{{ route('dashboard') }}">
+        <a class="nav-link @if ($activeNavItem === 'dashboard') bg-primary bg-gradient @endif ps-3 pe-5 py-3 fs-5 rounded text-white" href="{{ route('dashboard') }}">
           <i class="bi bi-house-door-fill me-2"></i>
           Dashboard
         </a>
