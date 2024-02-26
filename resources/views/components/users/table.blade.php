@@ -1,6 +1,6 @@
 @props(['users'])
 
-<style>
+<!-- <style>
   table {
     font-size: 20px; /* Adjust the font size for the entire table */
   }
@@ -8,7 +8,7 @@
   table th, table td {
     font-size: 20px; /* Adjust the font size for header cells and data cells */
   }
-</style>
+</style> -->
 @if ($users->isEmpty())
   <div class="pt-3 pb-2">
     <h4 class="text-muted">No users found.</h4>
